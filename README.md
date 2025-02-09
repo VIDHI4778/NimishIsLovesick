@@ -30,8 +30,7 @@
     </style>
 </head>
 <body>
-    <h1>Welcome to Nimish Is Lovesick</h1>
-    <p>Click the button to get a proof of lovesickness:</p>
+    <p>Click the button to get a proof of your lovesickness:</p>
     <button onclick="SendWuv()">Get Proof</button>
     <p id="proof"></p>
     
