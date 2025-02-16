@@ -1,14 +1,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nimish Is Lovesick</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">                           
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             margin: 50px;
-            background-color: #ff6666;
+            background-color: #ffcccb;
             color: #800000;
         }
         #proof {
@@ -48,7 +47,7 @@
     </style>
 </head>
 <body>
-    <h1>Nimish Is Lovesick </h1>
+    <h1>Nimish Is Lovesick!! </h1>
     <p>Click the button to receive a proof of lovesickness:</p>
     <button onclick="showProof()">Get Proof</button>
     <p id="proof"></p>
