@@ -8,7 +8,7 @@
             font-family: Arial, sans-serif;
             text-align: center;
             margin: 50px;
-            background-color: #ffb3e8;
+            background-color: #ff6666;
             color: #800000;
         }
         #proof {
