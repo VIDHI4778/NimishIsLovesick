@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">                           
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,7 +12,7 @@
         }
         #proof {
             font-size: 24px;
-            margin-top: 20px;
+            margin-top: 30px;
             font-weight: bold;
         }
         button {
@@ -23,7 +23,7 @@
             border: none;
             cursor: pointer;
             border-radius: 5px;
-            margin-top: 20px;
+            margin-top: 40px;
         }
         button:hover {
             background-color: #B57EDC;
@@ -34,7 +34,7 @@
             height: 20px;
             background-color: #FFFFFF;
             border-radius: 10px;
-            margin: 20px auto;
+            margin: 40px auto;
             overflow: hidden;
         
         }
@@ -47,7 +47,7 @@
     </style>
 </head>
 <body>
-    <h1>Nimish Is Lovesick!! </h1>
+    <h1>Nimish Is Lovesick!!</h1>
     <p>Click the button to receive a proof of lovesickness:</p>
     <button onclick="showProof()">Get Proof</button>
     <p id="proof"></p>
