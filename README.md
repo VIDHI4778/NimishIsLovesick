@@ -16,7 +16,7 @@
             font-weight: bold;
         }
         button {
-            font-size: 18px;
+            font-size: 20px;
             padding: 10px 20px;
             background-color: #ff6666;
             color: white;
