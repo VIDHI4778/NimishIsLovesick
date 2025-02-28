@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +8,7 @@
             font-family: Arial, sans-serif;
             text-align: center;
             margin: 50px;
-            background-color: #ffcccb;
+            background-color: #ffced6;
             color: #800000;
         }
         #proof {
@@ -16,7 +17,7 @@
             font-weight: bold;
         }
         button {
-            font-size: 20px;
+            font-size: 18px;
             padding: 10px 20px;
             background-color: #ff6666;
             color: white;
@@ -60,14 +61,27 @@
     
     <script>
         const proofs = [
-            "Blushing whenever *their* name is mentioned! 🥺",
-            "Randomly smiling at their texts like a fool! 🥺",
-            "Heart skipping a beat when they reply fast! 🥺",
-            "Thinking about them even while debugging code! 🥺",
-            "Daydreaming mid-conversation and forgetting what was said! 🥺",
-            "Checking their last seen, but pretending not to care! 🥺",
-            "Feeling butterflies just by seeing their profile picture! 🥺"
+            "saying, very achi ladis, meri favorite ladis, ladis i want to cuddle ke union mein sirf 1 element hai (🥺) ",
+            "Abe Sahi hai Mere pet mein aur per mein dard ho gaya, Warna merko koi dikkat ni hoti I love you bolne mein ", 
+             "Sweetheart (🥺) ",
+            "Tu is just,Made for me",
+            "merko toh pata bhi ni tha ki itna saara wuv kar bhi sakta hoon mai kisi ko 🥺",
+            "merko only tere haath pasand hai (🙈) ",
+             "Shit, Mujhe keeda hona tha ",
+            "wuv uuu me is very lucky tu fren hai meri", 
+            "Main Kahu ki Chini ke badle cuddles dene padege toh tu mana karega???? 😭 ... Dushman: Nahi actually (🙊)",
+            "06/09, 6:39 pm Dushman: kal mera very saara time,tujhe stare karne mein gaya hai",
+          "aur woh photo dekh kar merko lagta hai ki yeh meri hai?? yeh??? really?? yeh ladis??? itni sundar??? mai itna lucky thodi ho sakta hoon?? yeh real hai??",
+           "mai kabhi pink saree pehnta mai toh jarur deta terko gaal pe kiss 😔",
+          "Vidhi Sharma: How does pure frenship wala emotion feel like?               Dushman: very very relaxing sa (🥺)", 
+          "PHEROMONES!!", 
+            "Tu mere liye bas ek bhog ka vishya nahi hai!! Tu is meri vidhii, merko teri company very achi lagti, tu is woh jisse mai ache se baat kar sakta hoon (soft puppy ki tarah bhi)",
+"Aur kuch bhii ho, mai can rely on youu",];
+const gifProofs = [
+            "https://tenor.com/bOPLQ.gif", 
         ];
+         function showProof() {
+            const proofText = document.getElementById("proof");}
         let loveMeter = 0;
         let currentIndex = 0;
 
@@ -86,13 +100,21 @@
             }
         }
 
-        function checkSecret() {
-            const input = document.getElementById("secretInput").value.toUpperCase();
-            const secretWords = ["NIMISH", "VIDHI", "FREN", "YES", "I AM LOVESICK"];
-            if (secretWords.includes(input)) {
-                window.location.href = "https://xyz.com"; // Replace xyz.com with your actual link
-            }
-        }
+      function checkSecret() {
+    const input = document.getElementById("secretInput").value.toUpperCase();
+
+    // Define words and their corresponding links
+    const secretLinks = {
+        "MY PLAYLIST": "https://music.youtube.com/playlist?list=PLzycAjKA4ki5HMCriZtosGnW5r4F9T81F&si=xqK2a7i9Xuk9MMqu",
+          "HER PLAYLIST": "https://music.youtube.com/playlist?list=PL_wKRdAu_N2ycFIiVLoVSl0zSPTutGCgW&si=miCKkKvILMNbWAr3",  
+        "GIFTSS": "https://docs.google.com/spreadsheets/d/1b8cgUfu9qa9HST7Zb6AMVNH2dBaAVUGAKBlJ-ztbJKA/edit?gid=0#gid=0"
+    };
+
+    // Check if the input matches any secret words
+    if (secretLinks[input]) {
+        window.location.href = secretLinks[input]; // Redirect to the corresponding link
+    }
+}
     </script>
 </body>
 </html>
